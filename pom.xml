@@ -71,6 +71,10 @@
                             <username>${dockerhub.username}</username>
                             <password>${dockerhub.password}</password>
                         </auth>
+                        <tags>
+                            <tag>latest</tag>
+                            <tag>0.0.1</tag>
+                        </tags>
                     </to>
                     <container>
                         <mainClass>br.com.binsolution.ecs_fargate_cdk_01.EcsFargateCdk01Application</mainClass> <!-- Replace with your main class -->

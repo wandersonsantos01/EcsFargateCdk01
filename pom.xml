@@ -19,8 +19,8 @@
 
     <properties>
         <java.version>17</java.version>
-        <dockerhub.username>wanderson.santos01@gmail.com</dockerhub.username> <!-- Set your Docker Hub username -->
-        <dockerhub.password>5u1m7a10u</dockerhub.password> <!-- Set your Docker Hub password -->
+        <dockerhub.username>{{username}}</dockerhub.username> <!-- Set your Docker Hub username -->
+        <dockerhub.password>{{password}}</dockerhub.password> <!-- Set your Docker Hub password -->
     </properties>
 
     <dependencies>
@@ -83,7 +83,7 @@
                         </auth>
                         <tags>
                             <tag>latest</tag>
-                            <tag>0.0.1</tag>
+                            <tag>0.1.0</tag>
                         </tags>
                     </to>
                     <container>
